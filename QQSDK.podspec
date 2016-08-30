@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "QQSDK"
-  s.version      = "3.1.0"
+  s.version      = "3.1.0a"
   s.summary      = "Tencent QQ SDK"
   s.description  = "tencent QQ SDK, personal use"
   s.requires_arc        = true
@@ -21,6 +21,5 @@ Pod::Spec.new do |s|
   s.frameworks	= "Security", "SystemConfiguration", "CoreGraphics", "CoreTelephony"
   s.libraries	= "iconv", "sqlite3.0", "z", 'c++'
   s.ios.vendored_frameworks = "TencentOpenAPI.framework"
-  s.resource = "*.{png,xib,nib,bundle}"
   
 end

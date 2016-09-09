@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "QQSDK"
-  s.version      = "3.1.0a"
+  s.version      = "3.1.0b"
   s.summary      = "Tencent QQ SDK"
   s.description  = "tencent QQ SDK, personal use"
   s.requires_arc        = true
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.source 	= { :git => "https://github.com/lichang0716/QQSDK.git", :tag => s.version.to_s }
 
-  s.frameworks	= "Security", "SystemConfiguration", "CoreGraphics", "CoreTelephony"
-  s.libraries	= "iconv", "sqlite3.0", "z", 'c++'
+  s.frameworks	= "Security", "CoreGraphics"
+  s.libraries	= "iconv"
   s.ios.vendored_frameworks = "TencentOpenAPI.framework"
-  
+
 end
